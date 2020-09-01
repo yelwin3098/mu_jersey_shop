@@ -6,7 +6,7 @@
         },
         "cartDescription": {
             "type": "string",
-            "default": "This is my expressCart"
+            "default": "This is my Mancheste United Jersey Selling Website"
         },
         "cartLogo": {
             "type": "string"
@@ -48,7 +48,7 @@
         },
         "footerHtml": {
             "type": "string",
-            "default": "&lt;h4 class=&quot;text-center&quot;&gt;Powered by expressCart&lt;/h4&gt;"
+            "default": "&lt;h4 class=&quot;text-center&quot;&gt;Developed by yelwint&lt;/h4&gt;"
         },
         "googleAnalytics": {
             "type": "string"
@@ -61,16 +61,17 @@
         },
         "currencySymbol": {
             "type": "string",
-            "default": "£"
+            "default": "$"
         },
         "currencyISO": {
             "type": "string",
-            "enum": ["USD", "EUR", "GBP"],
+            "enum": ["USD", "EUR", "MM"],
             "default": "USD"
         },
         "paymentGateway": {
             "type": "string",
-            "enum": ["paypal", "blockonomics", "stripe", "authorizenet", "adyen", "payway", "instore"]
+            "enum": ["paypal", "blockonomics", "stripe", "authorizenet", "adyen", "payway", "instore"],
+            "default":"stripe"
         },
         "databaseConnectionString": {
             "type": "string"

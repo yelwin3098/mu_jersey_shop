@@ -79,7 +79,7 @@ router.post('/customer/create', async (req, res) => {
             req.session.orderComment = req.body.orderComment;
 
             // Return customer oject
-            res.status(200).json(customerReturn);
+            res.redirect('/customer/login')
         });
     }catch(ex){
         console.error(colors.red('Failed to insert customer: ', ex));
@@ -429,6 +429,19 @@ router.get('/customer/login', async (req, res, next) => {
 
     res.render(`${config.themeViews}customer-login`, {
         title: 'Customer login',
+        config: req.app.config,
+        session: req.session,
+        message: clearSessionValue(req.session, 'message'),
+        messageType: clearSessionValue(req.session, 'messageType'),
+        helpers: req.handlebars.helpers
+    });
+});
+
+router.get('/customer/register', async (req, res, next) => {
+    const config = req.app.config;
+
+    res.render(`${config.themeViews}customer-register`, {
+        title: 'Customer Register',
         config: req.app.config,
         session: req.session,
         message: clearSessionValue(req.session, 'message'),

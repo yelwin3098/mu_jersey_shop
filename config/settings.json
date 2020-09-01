@@ -1,21 +1,21 @@
 {
-    "cartTitle": "CLOTH",
-    "cartDescription": "expressCart",
+    "cartTitle": "UNITED DIRECT",
+    "cartDescription": "Manchester United jerseys and kits at us.store.manutd.com. Enjoy Quick Flat-Rate Shipping On Any Size Order. Browse Manchester United Store for the latest ",
     "cartLogo": "",
     "baseUrl": "http://localhost:1111",
     "emailHost": "smtp-mail.outlook.com",
     "emailPort": 587,
     "emailSecure": false,
-    "emailUser": "hi@markmoffat.com",
-    "emailPassword": "this_is_the_smtp_password",
-    "emailAddress": "hi@markmoffat.com",
+    "emailUser": "yelwin2949@gmail.com",
+    "emailPassword": "t@kec@re3098",
+    "emailAddress": "yelwin2949@gmail.com",
     "productsPerRow": 3,
     "productsPerPage": 6,
-    "footerHtml": "&lt;h4 class=&quot;text-center&quot;&gt;Powered by expressCart&lt;/h4&gt;",
+    "footerHtml": "&lt;h4 class=&quot;text-center&quot;&gt;Developed by @yelwin&lt;/h4&gt;",
     "googleAnalytics": "",
     "injectJs": "",
     "customCss": "",
-    "currencySymbol": "£",
+    "currencySymbol": "$",
     "paymentGateway": "stripe",
     "databaseConnectionString": "mongodb://127.0.0.1:27017/expresscart",
     "theme": "Cloth",
@@ -23,7 +23,8 @@
     "orderHook": "",
     "availableLanguages": [
         "en",
-        "it"
+        "it",
+        "mm"
     ],
     "defaultLocale": "en",
     "maxQuantity": 25,
@@ -42,5 +43,9 @@
         }
     },
     "showRelatedProducts": true,
-    "showHomepageVariants": false
+    "showHomepageVariants": false,
+    "secretCookie": "b7889e9c88995fa80c75679454f73fc76eee0e09",
+    "secretSession": "7c2ff43940f4b8b4159b13b9200e0803577bfc75",
+    "themeViews": "../views/themes/Cloth/",
+    "env": ""
 }
