@@ -112,14 +112,14 @@
     "payway",
     "westpac"
   ],
-  "author": "Mark Moffat",
-  "homepage": "https://expresscart.markmoffat.com",
+  "author": "Yelwin Credit @Mark Moffat",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrvautin/expressCart.git"
+    "url": "https://github.com/yelwin3098/mu_jersey_shop"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrvautin/expressCart/issues"
+    "url": "https://github.com/yelwin3098/mu_jersey_shop/issues"
   }
 }
