@@ -13,27 +13,6 @@ Payment providers included:
 - [PayWay](https://www.payway.com.au/)
 - Instore
 
-[![Github stars](https://img.shields.io/github/stars/mrvautin/expressCart.svg?style=social&label=Star)](https://github.com/mrvautin/expressCart)
-
-[![Actions Status](https://github.com/mrvautin/expressCart/workflows/expressCart-tests/badge.svg)](https://github.com/mrvautin/expressCart/actions)
-
-[**View the demo**](https://demo.expresscart.markmoffat.com/) [**Admin demo**](https://demo.expresscart.markmoffat.com/admin/)
-
-```
-Demo credentials
-
-Admin User:
-- User: `demo@test.com`
-- Password: `test`
-
-Customer:
-- User: `test@test.com`
-- Password: `test`
-
-Discount code:
-- 10 amount: `DEMO_AMT10`
-- 10 percent: `DEMO_PCT10`
-```
 
 ## Installation
 
@@ -97,20 +76,6 @@ A new user form will be shown where a user can be created.
 ### Styling
 
 Adding your own custom style is done by accessing the `Admin` panel then selecting `General settings`.
-
-#### Demo images
-
-Homepage:
-![Homepage](https://mrvautin.com/content/images/2020/01/expressCart-homepage.png)
-
-Admin manage settings:
-![Admin manage settings](https://mrvautin.com/content/images/2020/03/expressCart-admin-settings.png)
-
-Popout cart:
-![Popout cart](https://mrvautin.com/content/images/2020/01/expressCart-popout-cart.png)
-
-Dashboard:
-![Dashboard](https://mrvautin.com/content/images/2020/03/expressCart-admin-dashboard.png)
 
 ##### CSS
 
